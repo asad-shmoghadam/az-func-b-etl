@@ -7,7 +7,7 @@ Function B is an Azure Function to perform ETL on sensor data in EXCEL format, a
 1. Create a new Azure Function App
 2. Create a new Function
 3. Deploy the code from this repository using VS Code or the Azure CLI
-4. Create an Azure Storage Account,
+4. Create an Azure Storage Account (Find out more in [Function A - RemoveHTML](https://github.com/asad-shmoghadam/az-func-a-remove-html))
 5. Create a container called `attachments`
 6. Create a container called `sensorsdata`
 7. Add Azure Storage Account connection string for the atachments container to function configuration with the name of `ccpsattachmentsstorage_STORAGE`
