@@ -9,6 +9,7 @@ Function B is an Azure Function to perform ETL on sensor data in EXCEL format, a
 3. Deploy the code from this repository using VS Code or the Azure CLI
 4. Create an Azure Storage Account,
 5. Create a container called `attachments`
-6. Add Azure Storage Account connection string for the atachments container to function configuration with the name of `ccpsattachmentsstorage_STORAGE`
+6. Create a container called `sensorsdata`
+7. Add Azure Storage Account connection string for the atachments container to function configuration with the name of `ccpsattachmentsstorage_STORAGE`
 
 > The function will be triggered if the EXCEL file added to this path `"path": "attachments/{name}.xls",`
