@@ -1,0 +1,13 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "sensorsExcelBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "attachments/{name}.xls",
+      "connection": "ccpsattachmentsstorage_STORAGE"
+    }
+  ],
+  "disabled": false
+}
